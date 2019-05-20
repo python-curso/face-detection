@@ -1,10 +1,10 @@
 import cv2
 
 # Xml de classificacao da OpenCV
-cascPath = "haarcascade_eye_tree_eyeglasses.xml"
+classification = "haarcascade_eye_tree_eyeglasses.xml"
 
 # Setando a classificacao do xml da OpenCV para olhos
-faceCascade = cv2.CascadeClassifier(cascPath)
+faceCascade = cv2.CascadeClassifier(classification)
 
 # Ler a imagem
 image = cv2.imread("2.jpg")
